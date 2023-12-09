@@ -102,9 +102,9 @@
   position: relative;
   overflow: hidden;
   text-align: center;
+  justify-content: center;
   border-radius: 5px;
   margin-top: 30px;
-  display: inline-block;
   background-color: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
@@ -112,15 +112,19 @@
 
 .tab-buttons li {
   position: relative;
-  color: #777777;
-  font-size: 16px;
-  font-weight: 400;
-  float: left;
-  cursor: pointer;
-  padding: 16px 40px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  list-style: none;
+    color: #777777;
+    font-size: 13px;
+    font-weight: 400;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffffff;
+    list-style: none;
+    width: 160px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons-outer {
@@ -460,7 +464,7 @@
 /* ////////////////our-works///////////// */
 
 .we-are {
-  height: 82vh;
+  height: 80vh;
   width: 100%;
 }
 
